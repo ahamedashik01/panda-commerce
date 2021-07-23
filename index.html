@@ -18,9 +18,9 @@
 
 <body>
     <!-- header starts -->
-    <header class="container">
+    <header class="container mb-5">
         <!-- navigation -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5 ">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="Brand-logo" width="158" height="40"
@@ -53,8 +53,7 @@
         <section class="mt-5">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-
-                    <div class="carousel-item active bg-primary rounded-3">
+                    <div class="carousel-item active bg-info rounded-3">
                         <div class="row d-flex align-items-center p-3">
                             <div class="col-lg-7 p-5">
                                 <h1>Cool Dude Headphone</h1>
@@ -102,13 +101,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="carousel-item">
-                            <img src="..." class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="..." class="d-block w-100" alt="...">
-                        </div> -->
-
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                     data-bs-slide="prev">
@@ -122,8 +114,34 @@
                 </button>
             </div>
         </section>
-
     </header>
+    <!-- main-content -->
+    <main>
+        <!-- catagories -->
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="p-3 bg-warning d-flex align-items-center justify-content-between ">
+                        <h1>Watch</h1>
+                        <img src="images/categories/watch.png" alt="Watch">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="p-3 bg-warning d-flex align-items-center justify-content-between">
+                        <h1>Bags</h1>
+                        <img src="images/categories/bag.png" alt="bag">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="p-3 bg-success d-flex align-items-center justify-content-between">
+                        <h1>Shoes</h1>
+                        <img src="images/categories/shoes.png" alt="shoes">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
 
     <!-- bootstrap js script  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
