@@ -5,3 +5,20 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* custom brand color */
+.bg-panda-primary{
+    background-color: #FCEAE8;
+}
+.btn-panda-bg{
+    background-color: #FF2B7E;
+}
+.bg-panda-secondary{
+    background-color: #FFA500;
+}
+.bg-panda-titery{
+    background-color: #DA70D6;
+}
+.bg-panda-fourth{
+    background-color: #0000FF;
+}
